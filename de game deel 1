@@ -1,0 +1,82 @@
+# dit is het philemon en baucis script dat ik mag maken voor latijn... jeej#
+print("Hallo speler")
+# let op de cringe in de vorige zin#
+print("oeeee kijk hoe cool, ik zit in een website! we zullen maar doen alsof het moeilijk was om dit te maken zeker :)")
+print(" je krijgt binnen een paar lijnen code een keuze, om het spel te beginnen, de uitleg van het spel")
+print("of om het spel te stoppen")
+print("Vergeten! Er is nog een vierde optie, maar dat is voor losers, dus niet voor jou waarschijnlijk.")
+print("Maar als het echt NIET lukt kan je hulp typen")
+choice_1 = input("dus wat wil je,spelen, uitleg of om niet te spelen".strip(" "))
+if choice_1.strip() == "spelen":
+ print("cava dus nu gaat het spel beginnen")
+ print("ik hoop dat je niet te veel verwachtingen hebt, ik ben maar een beginner")
+ ### dit is het gedeelte waar het wonky en moeilijk wordt ###
+ print("blablabla, uitleg over hoe een moeras vroeger geen moeras was....")
+ choice_2 = input("welke speler kies je, het koppel philemon en baucis of de hemelgoden?")
+ ## wassup my glip glops, dit is het hemelgod gedeelte##
+ if choice_2.strip() == "hemelgoden" :
+     print("oké, ik zal proberen niet zo veel tekst te gebruiken ma dan kan nog wel moeilijk worden, blame ovidius.")
+     print("Mag ik griekse namen gebruiken, nee zeker.")
+     print("Jupiter en Mercurius komen aan in Phrygië")
+     print("Dit is omdat ze de gastvrijheid van de mensen op de proef willen stellen")
+     choice_3 = input("en wat doen ze?")
+     print(choice_3), print("juist ja, tenminste als je aankloppen zei, ik ben een programma niet alwetend.")
+     print("dus ze kloppen aan bij een heel aantal mensen, maar bij hoeveel mensen volgens de tekst?")
+     tekst_latijn = input("dus bij hoeveel mensen")
+     if tekst_latijn.strip() == "1000" :
+         print("juist")
+         print("dus ze kloppen aan bij 100 mensen, vragend om onderdak, niemand doet open tot ze bij het huisje komen van philemon en baucis.")
+         choice_4 = input("wil je informatie over philemon en baucis?")
+         while choice_4.strip() == "ja" :
+             print("philemon en baucis, twee vrome oude mensen die getrouwd zijn toen ze jong waren, en al zeer lang samenleven.")
+             print("ze zijn allebei ook even oud en zijn arm, maar zeer gelukkig met elkaar.")
+             break
+         print("toen de hemelgoden dit hutje vonden, moesten ze zich diep bukken")
+         print("Dan haalde Philemon een bank en zei hij tegen zijn gasten dat ze erop moesten rusten")
+         print("Baucis legde er ook een ruwe canvas op")
+         choice_5 = input("daarna doet baucis wat?")
+         if choice_5.strip == "vuur" :
+         print("juist ja, ze wakkert het vuur aan met haar zwakke adem")
+         print("Wanneer het vuur terug aan was legde ze er bladeren en droge schors op.")
+         print("daarnaa doet ze er ook dungekloven houtjes en gedroogde takken op")
+         choice_6 = input("wat doet philemon ondertussen? 1) groenten plukken of 2 de goden entertainen")
+         if choice_6.strip == "1":
+         print("iemand heeft hier opgelet!")
+         print("Dan snijdt baucis een stuk van het lang bewaarde rugstuk en dompelt het in water.")
+         _1 = input("wat doet het koppel als volgend om de goden te plezieren, voor entertainment zorgen of helemaal niks?")
+         if _1.strip == "entertainment" :
+          print("juist, Ze entertainen hun gasten opdat het wachten minder lang lijkt. ")
+          print("Ze doen lauw water in een houten teil zodat de gasten zich kunnen verfrissen")
+          print("Daarna gebeuren er een paar dingen die niet zo veel uitmaken")
+          print("Dus daar zal ik niet zo op ingaan.")
+          print("daarna nemen de goden plaats, Baucis schuift een driepoottafel erbij, één poot is een beetje te kort")
+         choice_7 = input("Dus legt Baucis er wat onder?")
+         if choice_7.strip() == "een potscherf":
+             print("juist, Baucis legt er een een potshcerf onder.")
+             print("dan wordt er met een bosje kruizemunt de tafel schoongemaakt. ")
+#### nog maar 6 alineas te gaan ####
+             print("Nu komt het hoofdgerecht.")
+             print("Het hoofdgerecht bestaat uit de volgende dingen:")
+             print("-olijven")
+             print("-kornoeltjes in heldere wijnmoer")
+             print("-andijvie")
+             print("-radijzen")
+             print("-geitenkaas")
+             print("-eieren gewikkeld in niet te hete assen")
+             choice_8 = input("Alle borden zijn van wat gemaakt?")
+             if choice_8.strip() == "aarde" :
+                 print("goed zo , jij hebt echt wel zeker de tekst niet naast je liggen zeker.")
+     else : print("fout, je moet de game opnieuw starten.")
+     ### en dit is het philemon en baucis gedeelte, objective is goden niet boos maken ###
+ else :
+      print("oké je hebt philemon en baucis gekozen, goed zo")
+elif choice_1 == "uitleg" :
+    print("het spel werkt dus zo, je maakt keuzes die je uitkomst beïnvloeden, wanneer je een keuze maakt kan deze invloed hebben.")
+    print("het spel is dus eigenlijk niet zo moeilijk, best straightforward")
+elif choice_1 == "hulp":
+    print("heb je dit al een paar keer geprobeerd maar gaat het niet? Dan heb je twee opties:")
+    print("optie 1: Git gud")
+    print("optie 2 :https://www.latijnengrieks.com/vertaling/ovidius/met_philemon_en_baucis_1 ")
+else :
+     print("dat is spijtig")
+     print("als je van gedacht verandert moet je op rerun drukken")
